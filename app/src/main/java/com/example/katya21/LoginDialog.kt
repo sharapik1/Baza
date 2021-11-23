@@ -51,6 +51,9 @@ class LoginDialog(private val callback: (login: String, password: String)->Unit)
             }
 
             myDialog
+
         } ?: throw IllegalStateException("Activity cannot be null")
+
+
     }
 }

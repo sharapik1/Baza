@@ -6,7 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:id="@+id/logout_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="right"
+            android:textColor="@color/design_default_color_primary"
+            android:text="ВЫХОД"
+            />
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
