@@ -3,36 +3,61 @@
     android:id="@+id/container"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
     <ImageView
         android:id="@+id/product_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Артикуль:"/>
+        android:text="Название:"
+        android:textSize="25dp"
+        android:textColor="#d696fa"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:textSize="20dp"
+        android:textColor="#30074a"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Артикуль:"
+        android:textColor="#bf6af7"
+        android:textSize="25dp" />
 <TextView
     android:id="@+id/article"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"/>
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:textColor="#30074a"/>
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Стоимость:"/>
+        android:text="Стоимость:"
+        android:textColor="#b133ff"
+        android:textSize="25dp"/>
     <TextView
         android:id="@+id/mincost"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#30074a"/>
 <TextView
     android:text="Номер цеха:"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"/>
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#612885"
+    android:textSize="25dp"/>
     <TextView
         android:id="@+id/workshopNumber"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#30074a"/>
 
 
 </LinearLayout>

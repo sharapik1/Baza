@@ -1,6 +1,8 @@
 package com.example.katya21
 
 import android.app.Activity
+import android.content.Context
+import android.graphics.Bitmap
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -9,6 +11,9 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+
+import java.lang.Exception
+import java.util.ArrayList
 
 class ProductAdapter (
     private val values: ArrayList<Product>,
@@ -61,11 +66,11 @@ class ProductAdapter (
     }
 
     class ViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
-        var image: ImageView = itemView.findViewById(R.id.image)
+       var image: ImageView = itemView.findViewById(R.id.product_icon)
         var title: TextView = itemView.findViewById(R.id.title)
         var article: TextView = itemView.findViewById(R.id.article)
-        var  price: TextView = itemView.findViewById(R.id.mincost)
-        var number: TextView = itemView.findViewById(R.id.workshopNumber)
+        var price: TextView = itemView.findViewById(R.id.mincost)
+        var number: TextView =  itemView.findViewById(R.id.workshopNumber)
         var container: LinearLayout = itemView.findViewById(R.id.container)
     }
 

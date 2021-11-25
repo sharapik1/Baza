@@ -17,8 +17,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:gravity="right"
-            android:textColor="@color/design_default_color_primary"
+            android:textColor="#db63ff"
             android:text="ВЫХОД"
+            android:textSize="20dp"
             />
         <TextView
             android:id="@+id/logs"
@@ -26,15 +27,16 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:gravity="right"
-            android:textColor="@color/design_default_color_primary"
-            android:text="ВХОД"/>
+            android:textColor="#db63ff"
+            android:text="ВХОД"
+            android:textSize="20dp"/>
 
        <Button
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:layout_gravity="right"
            android:onClick="Product"
-           android:text="Продукты"/>
+           android:text="Продукты" />
     </LinearLayout>
 
 
