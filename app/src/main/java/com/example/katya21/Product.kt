@@ -13,6 +13,4 @@ data class Product(
         val ProductionPersonCount: Int,
         val ProductionWorkshopNumber: Int,
         val MinCostForAgent: Int
-) {
-
-}
+)

@@ -14,8 +14,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Katya21"
         android:usesCleartextTraffic="true">
-
-        <activity android:name=".Product"
+        <activity android:name=".MaterialActivity"></activity>
+        <activity android:name=".Material" />
+        <activity
+            android:name=".Product"
             tools:ignore="Instantiatable" />
         <activity android:name=".ProductActivity" />
         <activity android:name=".MainActivity">
