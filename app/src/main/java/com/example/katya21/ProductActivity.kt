@@ -1,5 +1,6 @@
 package com.example.katya21
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
@@ -84,7 +85,9 @@ class ProductActivity : AppCompatActivity() {
         val productAdapter = ProductAdapter(productList, this)
         productAdapter.setItemClickListener {
             runOnUiThread{
-                showDetalisInfo(it)
+                startActivity(
+                    Intent(this, MaterialActivity::class.java)
+                )
             }
         }
         productRecyclerView.adapter = productAdapter

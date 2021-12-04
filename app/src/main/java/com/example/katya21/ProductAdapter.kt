@@ -19,6 +19,8 @@ class ProductAdapter (
     private val values: ArrayList<Product>,
     private val activity: Activity
 ): RecyclerView.Adapter<ProductAdapter.ViewHolder>(){
+
+
     private var itemClickListener: ((Product) -> Unit)? = null
     fun setItemClickListener(itemClickListener: (Product) -> Unit) {
         this.itemClickListener = itemClickListener

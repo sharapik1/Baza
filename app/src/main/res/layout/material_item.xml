@@ -6,44 +6,75 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="20dp">
-    <ImageView
-        android:id="@+id/material_icon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Название:"
         android:textSize="25dp"
+        android:layout_gravity="center"
         android:textColor="#d696fa"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/material_title"
         android:textSize="20dp"
+        android:textColor="#30074a"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Количество в упаковке:"
+        android:textColor="#d696fa"
+        android:layout_gravity="center"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/material_CountInPack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_gravity="center"
         android:textColor="#30074a"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Описание:"
-        android:textColor="#bf6af7"
-        android:textSize="25dp" />
+        android:text="Единица измерения:"
+        android:layout_gravity="center"
+        android:textColor="#b133ff"
+        android:textSize="25dp"/>
     <TextView
-        android:id="@+id/material_description"
+        android:id="@+id/material_Unit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textColor="#30074a"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="В наличии:"
+        android:layout_gravity="center"
+        android:textColor="#b133ff"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/material_CountInStock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:textSize="20dp"
         android:textColor="#30074a"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Стоимость:"
-        android:textColor="#b133ff"
+        android:layout_gravity="center"
+        android:textColor="#612885"
         android:textSize="25dp"/>
     <TextView
         android:id="@+id/material_cost"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:textSize="20dp"
         android:textColor="#30074a"/>
 </LinearLayout>
